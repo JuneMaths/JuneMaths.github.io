@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #D9D5DE;
+    background: rgb(42,75,55);
     min-height: 100vh;
     padding: 0;
 }
@@ -79,7 +79,7 @@ a {
     }
 
     .inner h1{
-        background-color:#2c593c96;
+        background-color:rgb(42,75,55,0.8);
         text-align: center;
         min-width: 10em;
         position: relative;
@@ -89,7 +89,7 @@ a {
     }
 
     strong {
-        color: #D9D5DE;
+        color: whitesmoke;
         font-weight: 400;
         font-family: 'Dancing Script', cursive;
         text-align: center;
@@ -141,7 +141,6 @@ a {
     /* Python programmes */
             .row{
                 /*background-color: #D9D5DE;*/
-                box-shadow: -3px 3px 2px rgb(0,0,0,0.3);
                 margin: 4px;
             }
 
@@ -149,13 +148,12 @@ a {
                 .row >*{
                     /*background-color: rgb(98, 161, 177);*/
                     margin: 5px;
-                    border-bottom: solid 2px #2c593c83;
+                    /*border-bottom: solid 2px #2c593c83;*/
 
                 }
                 article > *{
                     margin: 0;
                     align-items: center;
-                    border-bottom: solid 1px #2c593c83;
                 }
 
 
@@ -220,8 +218,8 @@ a {
 /* Button*/
 
 .button{
-    background: #D9D5DE;
-    border: 1px solid #2C593C;
+    background: whitesmoke;
+    border: 2px solid #2C593C;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -229,10 +227,12 @@ a {
     max-width: 30%;
     box-shadow: -3px 3px 2px rgb(0,0,0,0.3);
     height: 3em;
-		
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .button:hover {
     color: #308C58 !important;
     border: 2px solid #308C58;
 }
+
